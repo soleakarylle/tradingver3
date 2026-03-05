@@ -45,7 +45,7 @@ row.innerHTML=`
 <td>${item["Show"]||""}</td>
 <td>${item["Date"]||""}</td>
 <td>${item["City"]||""}</td>
-<td>${item["Venue"]||""}</td>
+<td>${item["Cast"]||""}</td>
 <td>${item["Format"]||""}</td>
 <td>${link}</td>
 `
