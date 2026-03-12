@@ -72,9 +72,9 @@ let text=(
 let matchSearch=text.includes(search)
 let matchType=!type||item["Audio / Video"]===type
 let matchShow=!show||item["Show"]===show
-let matchShow=!show||item["Cast"]===cast
 
-return matchSearch&&matchType&&matchShow&&matchCast
+
+return matchSearch&&matchType&&matchShow
 
 })
 
